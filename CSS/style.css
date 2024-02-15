@@ -1,10 +1,87 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #725e5e;
-    color: #e6dfdf;
+  background: linear-gradient(to bottom, #3498db, #2c3e50, #679dcf);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px;
+  color: #c9c5c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-bg {
-    color: #007bff;
+.container {
+  max-width: 600px;
+  background-color: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+}
+#temperatureForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#temperatureForm label,
+#temperatureForm select {
+  margin-bottom: 10px;
+}
+
+#temperatureForm button {
+  margin-top: 10px;
+}
+h1 {
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #333;
+  margin-top: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  background: linear-gradient(to right, #ff0844, #ffb199);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+#resultForm {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
